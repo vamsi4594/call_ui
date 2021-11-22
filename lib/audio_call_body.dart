@@ -48,7 +48,9 @@ class Body extends StatelessWidget {
                       iconSrc: "assets/icons/Icon Mic.svg",
                     ),
                     RoundedButton(
-                      press: () {},
+                      press: () {
+                        Navigator.pop(context);
+                      },
                       color: kRedColor,
                       iconColor: Colors.white,
                       iconSrc: "assets/icons/call_end.svg",
